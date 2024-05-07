@@ -63,6 +63,7 @@ public class ProductServiceImpl implements ProductService {
         productResponseDto.setPrice(changedProduct.getPrice());
         productResponseDto.setStock(changedProduct.getStock());
 
+
         return productResponseDto;
     }
 
